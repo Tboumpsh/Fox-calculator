@@ -1,0 +1,92 @@
+/* body style */
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100% !important;
+  overflow: hidden;
+}
+
+/* in center to html file */
+.calculator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8%;
+  gap: 20px;
+}
+
+/* input style */
+#num1,
+#num2 {
+  text-align: center;
+  padding: 10px;
+  width: 350px;
+  height: 60px;
+  background-color: unset;
+  border: 2px solid orange;
+  margin-left: 5px;
+  display: flex;
+  color: white;
+}
+#num1:hover {
+  background-color: rgba(232, 228, 221, 0.187);
+  text-align: center;
+  padding: 10px;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+  /* background-color: unset; */
+  border: 2px solid rgb(249, 191, 0);
+  margin-left: 5px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px,
+    rgb(0 0 0) 5px 2px 6px 0px inset, rgb(0 0 0 / 50%) -3px -3px 6px 1px inset;
+}
+
+#num2:hover {
+  background-color: rgba(216, 214, 210, 0.187);
+  text-align: center;
+  padding: 10px;
+  transform: scale(1.1);
+  transition-duration: 0.4s;
+  /* background-color: unset; */
+  border: 2px solid rgb(249, 191, 0);
+  margin-left: 5px;
+  display: flex;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px,
+    rgb(0 0 0) 5px 2px 6px 0px inset, rgb(0 0 0 / 50%) -3px -3px 6px 1px inset;
+}
+/* button style */
+button {
+  width: 30px;
+  height: 30px;
+  background-color: orange;
+  border: unset;
+  color: white;
+  font-size: bold;
+}
+
+button:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+/* p style */
+#result {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+/* image style in html file */
+.imge {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+}
+.imge > img {
+  width: 70%;
+  height: auto;
+}

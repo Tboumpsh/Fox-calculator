@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- link css file -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="website icon" href="image/262816.png">
+</head>
+
+<body>
+    <div class="calculator">
+        <!-- Define inputs to get numbers from the user and give them id to link them to scripts -->
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+        <!-- We put the marks in a div so that we can style them more easily -->
+        <div class="dvition">
+            <!-- Definition of operations that my calculator supports -->
+            <button onclick="add()">+</button>
+            <!-- Each of them has an oncilck prpperty that by pressing each of them, their function will be activated in the js part -->
+            <button onclick="subtract()">-</button>
+            <button onclick="multiply()">*</button>
+            <button onclick="divide()">/</button>
+            <button onclick="pow()">^</button>
+        </div>
+        <!-- Finally, when we want to show the output to the user on the page, we need a p -->
+        <p id="result">Result: </p>
+        <!-- And by giving a beautiful gif, we make our page look more beautiful and animated -->
+        <div class="imge">
+            <img src="image/4067cbaf595b5f021bc0148fdf29dbec.gif" alt="">
+        </div>
+    </div>
+    <!-- link js file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
